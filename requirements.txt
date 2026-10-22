@@ -1,0 +1,35 @@
+# LangChain / LangGraph
+langchain
+langchain-core
+langchain-openai
+langgraph
+langgraph-checkpoint-sqlite
+
+# Data / config
+pydantic>=2.0
+python-dotenv
+PyYAML
+requests
+Pillow
+
+# Document parsing
+pdfplumber
+pypdf
+openpyxl
+python-docx
+
+# Tests
+pytest
+pytest-cov
+
+# .xls support
+xlrd
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
+
+# Swagger UI local assets
+swagger-ui-bundle

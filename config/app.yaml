@@ -1,0 +1,18 @@
+app:
+  name: shipping-bill-agent
+  log_level: INFO
+  confidence_threshold: 0.6
+  max_retries: 3
+
+ocr:
+  task: orderChange
+  timeout_connect: 10
+  timeout_read: 300
+  max_retries: 3
+
+storage:
+  backend: local
+
+# 说明：
+# - 敏感信息（API key、OSS AK/SK、记账主体）不写在这里，放 .env
+# - 这里只放可公开的默认值和阈值

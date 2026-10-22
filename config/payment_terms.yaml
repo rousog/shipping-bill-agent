@@ -1,0 +1,21 @@
+# 付款方式标准化
+# PP = 预付，CC = 到付；无法判断的保持 UNKNOWN/null
+
+PP:
+  - PP
+  - P
+  - PREPAID
+  - PRE-PAID
+  - FREIGHT PREPAID
+  - SHA PAY
+
+CC:
+  - CC
+  - C
+  - COLLECT
+  - FREIGHT COLLECT
+
+UNKNOWN:
+  - COD
+  - PAY IMMEDIATELY
+  - CASH ON DELIVERY

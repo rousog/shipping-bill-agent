@@ -1,0 +1,33 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data
+data/assets/*
+!data/assets/.gitkeep
+data/output/*
+!data/output/.gitkeep
+data/ocr_cache/*
+!data/ocr_cache/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+data/agent.db
+data/*.db
+data/*.db-*
+
+# Confidential assessment samples (do not publish)
+data/samples/
+
+# Delivery
+*.zip
+.DS_Store

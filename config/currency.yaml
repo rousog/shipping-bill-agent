@@ -1,0 +1,38 @@
+# 币种别名 + 常见 ISO 4217 白名单
+# 生产可换成完整 ISO 4217 列表；本题先覆盖航运常见币种。
+
+aliases:
+  RMB: CNY
+  RMB¥: CNY
+  US$: USD
+  USD$: USD
+  U.S.D: USD
+  "$": USD
+  ¥: CNY
+  ￥: CNY
+
+iso4217:
+  - USD
+  - CNY
+  - EUR
+  - GBP
+  - JPY
+  - HKD
+  - SGD
+  - KRW
+  - AUD
+  - CAD
+  - NZD
+  - CHF
+  - TWD
+  - MYR
+  - THB
+  - VND
+  - INR
+  - AED
+  - SAR
+  - BRL
+  - MXN
+  - ZAR
+  - PHP
+  - IDR

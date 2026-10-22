@@ -1,0 +1,97 @@
+# 费用名称标准化：标准名 -> 原始写法列表
+# 匹配时会把原始名称转为大写、去标点、压缩空格后再查表。
+
+Handling Charge:
+  - HANDLING CHARGE
+  - HANDLING FEE
+  - H/D FEE
+  - H/C
+
+Documentation Fee:
+  - DOC FEE
+  - DOCUMENTATION FEE
+
+Terminal Handling Charge:
+  - THC
+  - TERMINAL HANDLING
+
+Trucking Charge:
+  - TRUCKING FEE
+  - DRAYAGE
+
+Customs Clearance Fee:
+  - CUSTOMS FEE
+  - CUSTOMS CLEARANCE
+
+Storage Charge:
+  - STORAGE FEE
+  - WAREHOUSE FEE
+
+Detention Charge:
+  - DETENTION
+  - DETENTION FEE
+
+Detention Free Time Charge:
+  - 4 ADD'L DETENTION FREE TIME CHARGE
+  - ADDITIONAL DETENTION FREE TIME CHARGE
+
+Demurrage Charge:
+  - DEMURRAGE
+  - DEMURRAGE FEE
+
+Wharfage Charge:
+  - WHARFAGE
+
+Wharfage Administration Fee:
+  - WHARFAGE ADMINISTRATION FEE
+
+On Carriage Charge:
+  - ON CARRIAGE
+  - ON-CARRIAGE
+  - ON CARRIAGE ADDITIONAL - US EM
+
+Ocean Freight:
+  - OCEAN FREIGHT
+  - O/F
+  - FREIGHT
+
+Bunker Adjustment Factor:
+  - BAF
+  - BUNKER SURCHARGE
+
+Currency Adjustment Factor:
+  - CAF
+  - CURRENCY SURCHARGE
+
+AMS Fee:
+  - AMS
+  - AMS FEE
+
+ENS Fee:
+  - ENS
+  - ENS FEE
+
+ISF Fee:
+  - ISF
+  - ISF FEE
+
+Telex Release Fee:
+  - TELEX RELEASE FEE
+  - TELEX FEE
+
+Seal Fee:
+  - SEAL FEE
+
+CFS Charge:
+  - CFS
+  - LCL CHARGE
+
+Insurance Fee:
+  - INSURANCE
+
+Agency Fee:
+  - AGENCY FEE
+
+Bill of Lading Fee:
+  - B/L FEE
+  - BILL OF LADING FEE

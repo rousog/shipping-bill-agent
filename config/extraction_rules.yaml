@@ -1,0 +1,40 @@
+# 抽取规则扩展点。
+# Phase 2 的文档类型关键词和表头别名目前在
+# src/shipping_agent/rules/extraction.py 里维护；
+# 这里先放可业务调整的关键词，后续可迁移正则。
+
+document_types:
+  Debit Note:
+    - DEBIT NOTE
+    - DEBIT MEMO
+    - DEBIT ADVICE
+  Credit Note:
+    - CREDIT NOTE
+    - CREDIT MEMO
+    - CREDIT ADVICE
+  Arrival Notice:
+    - ARRIVAL NOTICE
+    - GENERAL NOTICE
+  Pre-Alert:
+    - PRE-ALERT
+    - PRE ALERT
+    - PREALERT
+  Invoice:
+    - INVOICE
+
+table_headers:
+  charge_item:
+    - 费用名称
+    - 费用
+    - charge
+    - description
+  amount:
+    - 金额
+    - amount
+    - total
+  currency:
+    - 币种
+    - currency
+  payment_term:
+    - 付款方式
+    - payment
